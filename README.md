@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Šolske obveznosti
 
-## Get started
+## Avtor
+Maid Dogdić – 4.TR
 
-1. Install dependencies
+## Opis aplikacije
+Šolske obveznosti je mobilna aplikacija, izdelana z React Native in Expo.
 
-   ```bash
+Namenjena je preprostemu spremljanju šolskih nalog.
+
+Aplikacija omogoča:
+- Pregled šolskih nalog.
+- Dodajanje novih nalog.
+- Prikaz števila nalog.
+- Navigacijo med začetnim zaslonom in seznamom nalog.
+
+## Uporabljene tehnologije
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- Git in GitHub
+
+## Navodila za zagon
+
+1. Namestimo Node.js.
+2. Prenesemo projekt z GitHuba.
+3. Odpremo projekt v Visual Studio Code.
+4. V terminal vpišemo:
+
    npm install
-   ```
 
-2. Start the app
+5. Nato zaženemo projekt z ukazom:
 
-   ```bash
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+6. Na telefonu odpremo aplikacijo Expo Go in skeniramo QR-kodo.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Struktura projekta
+- src/app/ – zasloni in navigacija
+- src/components/ – ponovno uporabne komponente
+- src/theme.ts – skupne barve
+- src/utils/ – pomožne funkcije
